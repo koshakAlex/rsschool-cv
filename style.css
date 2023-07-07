@@ -1,0 +1,30 @@
+h1{
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+    margin: 0;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+.content{
+    height: 1000px;
+    width: 100%;
+}
+.left{
+    width: 50%;
+    height: 950px;
+    float: left;
+    background-color: lightgoldenrodyellow;
+}
+.right{
+    width: 50%;
+    height: 950px;
+    float: right;
+    background-color: lightgoldenrodyellow;
+}
+img{
+    padding: 0%;
+    height: 100%;
+}
