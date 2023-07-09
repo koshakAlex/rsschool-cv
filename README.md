@@ -1,2 +1,3 @@
 # rsschool-cv    
-https://github.com/koshakAlex/rsschool-cv/blob/gh-pages/cv.md
+https://koshakAlex.github.io/rsschool-cv/
+https://koshakAlex.github.io/rsschool-cv/cv
