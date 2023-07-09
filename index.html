@@ -8,16 +8,20 @@
  <body>
 <div class="content">
   <h1>Alexandra Koshel</h1>
-  <div class="right">
+<div class="right">
   <div id="myname"> 
     <h2>My Name</h2>
     <p>Alexandra Koshel</p>
-</div>
+  </div>
   <div id="contacts">
     <h2>Contacts</h2>
-    <p>git: @koshakAlex
-        inst: @koshak__13
-        +375 (44) 734-04-13</p>
+    <p>
+        <ul>
+            <li>git: @koshakAlex</li>
+            <li>inst: @koshak__13</li>
+            <li>+375 (44) 734-04-13</li>
+        </ul>
+    </p>
   </div>
   <div id="aboutme">
     <h2>About me</h2>
@@ -28,18 +32,22 @@
   </div>
   <div id="skills">
     <h2>Skills</h2>
-    <p>HTML, CSS, JS
-        C#
-        C++
-        Java(so so)</p>
+    <p>
+        <ul>
+            <li>HTML, CSS, JS</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li> Java(so so)</li>
+        </ul>
+    </p>
   </div>
   <div id="code">
     <h2>Code</h2>
-    <p>$('li').each(function() {
-        let b = $(this);
-        if (b.hasClass('www')) {
-            b.removeClass('www');
-        } else {
+    <p>$('li').each(function() { <br>
+        let b = $(this);<br>
+        if (b.hasClass('www')) {<br>
+            b.removeClass('www');<br>
+        } else {<br>
             b.addClass('www');
         }
     });</p>
@@ -50,19 +58,29 @@
   </div>
   <div id="education">
     <h2>Education</h2>
-    <p>Сollege : Minsk Radioengineering College
-        Courses : Ias.bsuir
-        Web-мастер. Базовый уровень
-        Web-мастер (JavaScript). Углубленный уровень</p>
+    <p>
+        <ul>
+            <li>Сollege : Minsk Radioengineering College</li>
+            <li>Courses : Ias.bsuir:</li>
+            <ol>
+            <li>Web-мастер. Базовый уровень</li>
+            <li> Web-мастер (JavaScript). Углубленный уровень</li>
+            </ol>
+        </ul>  
+    </p>
   </div>
   <div id="english">
     <h2>English</h2>
     <p>B1 (I had been practicing English, when I studied at college.I had a wonderful teacher who taught us American English.I miss her. )</p>
   </div>
-  </div>
+</div>
   <div class="left">
-    <img src="2.png" alt="">
+    <img class="me" src="2.png" alt="Фотография">
   </div>
 </div>
+<footer>
+    <a href="https://rs.school/js/">Записаться на курсы тут!</a>
+    <img class="logo" src="3.svg" alt="логотип">
+</footer>
  </body>
 </html>
